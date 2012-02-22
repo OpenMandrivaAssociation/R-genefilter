@@ -9,11 +9,13 @@ Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-AnnotationDbi R-annotate R-Biobase R-graphics R-methods R-stats R-survival 
-Requires:         R-Biobase R-class R-hgu95av2.db R-methods R-tkWidgets R-ALL 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
-BuildRequires:    R-AnnotationDbi R-annotate R-Biobase R-graphics R-methods R-stats R-survival 
-BuildRequires:    R-Biobase R-class R-hgu95av2.db R-methods R-tkWidgets R-ALL 
+Requires:         R-AnnotationDbi R-annotate R-Biobase R-graphics R-methods
+Requires:         R-stats R-survival R-Biobase R-class R-hgu95av2.db
+Requires:         R-tkWidgets R-ALL
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-AnnotationDbi R-annotate R-Biobase R-graphics R-methods
+BuildRequires:    R-stats R-survival R-Biobase R-class R-hgu95av2.db
+BuildRequires:    R-tkWidgets R-ALL
 
 %description
 Some basic functions for filtering genes
