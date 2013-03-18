@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.36.0
+Version:          1.40.0
 Release:          1
 Summary:          genefilter: methods for filtering genes from microarray experiments
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/genefilter_1.40.0.tar.gz
 Requires:         R-AnnotationDbi R-annotate R-Biobase R-graphics R-methods
 Requires:         R-stats R-survival R-Biobase R-class R-hgu95av2.db
 Requires:         R-tkWidgets R-ALL
@@ -47,3 +47,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/wFun
+
