@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.36.0
-Release:          1
+Release:          2
 Summary:          genefilter: methods for filtering genes from microarray experiments
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
