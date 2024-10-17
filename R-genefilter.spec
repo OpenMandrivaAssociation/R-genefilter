@@ -7,7 +7,7 @@ Release:          2
 Summary:          genefilter: methods for filtering genes from microarray experiments
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-AnnotationDbi R-annotate R-Biobase R-graphics R-methods
 Requires:         R-stats R-survival R-Biobase R-class R-hgu95av2.db
